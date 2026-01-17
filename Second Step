@@ -1,0 +1,15 @@
+#Press Ctrl+Shift+P
+#Type "Preferences: Open Keyboard Shortcuts (JSON)". You would likely get suggested before you finish up type the entire thing
+#Enter it (ofcourse)
+#A text file will appear in which a bunch of comments must have been written. Backspace those comments for your convinience
+#Paste this piece of code in between [ and ]
+{
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.editor.changeLanguageMode",
+    "args": "python"
+}
+#Save it (ctrl+s)
+#Restart VSCode
+#Now create a new text file (conviniently using Ctrl+N) and press Ctrl+Alt+P. This would likely make a snake appear on your text file name on the tab.
+ Meaning VSCode has successfully detected Python
+#So you can just press Ctrl+Shift+P on a new text file and you can seemly process python in real time on vscode terminal.
