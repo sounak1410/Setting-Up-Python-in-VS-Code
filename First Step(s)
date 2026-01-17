@@ -1,3 +1,4 @@
+#Make sure your autosave is ON
 #Press the key combination: Ctrl+Shift+P
 #Type Snippets
 #Scroll down a bit and select New Global Snippets File
@@ -14,7 +15,7 @@
         "description": "Trigger Python Language Mode"
     }
 }
-#Save it (Press Ctrl+S) [DON'T FORGET TO SAVE IT]
+#Save it (Press Ctrl+S) [Though not required if your autosave is ON, but still do it for mental clarity]
 
 
 #Now if you type something like p or py in a new file, VSCode will itself start suggesting Python over the text. Press tab.
