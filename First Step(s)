@@ -1,0 +1,21 @@
+#Press the key combination: Ctrl+Shift+P
+#Type Snippets
+#Scroll down a bit and select New Global Snippets File
+#Then some sort of a box will appear, and type(name it) "python-trigger" in there
+#A file will appear, delete everything in that file
+#Paste this code-block:
+{
+    "Switch to Python": {
+        "prefix": "pyset",
+        "body": [
+            "# -*- coding: python -*-",
+            "$0"
+        ],
+        "description": "Trigger Python Language Mode"
+    }
+}
+#Save it (Press Ctrl+S) [DON'T FORGET TO SAVE IT]
+
+
+#Now if you type something like p or py in a new file, VSCode will itself start suggesting Python over the text. Press tab.
+#This would prove that your snippets are working
